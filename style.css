@@ -1,0 +1,87 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300&display=swap');
+
+
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: black;
+        }    
+        .header {
+            color: #32B9CD;
+            border-bottom: 3px solid #32B9CD;       
+
+        }
+        .container {
+            display: flex;
+            width: 81%;
+            margin: auto;
+            justify-content: space-between;
+        }
+        .navbar{
+            display: flex;
+            list-style: none;
+            width: 611px;
+            justify-content: space-evenly;
+            align-items: center;
+            color: #E3B062;
+        }
+        .navbar a{
+            color: #E3B062;
+            text-decoration: none;
+        }
+        .agora{
+            font-weight: 800;
+        }
+        
+        /* BANNER */
+        .banner{
+            height: 500px;
+            color: #FFFFFF;
+            background-image: url("bg-jelly-fish-para-home.png");
+            background-size: cover; /* FAZ COM QUE A IMAGEM OCUPE O ESPAÇO TOTAL */
+           /*  background-repeat: no-repeat;  NÃO DIEXA REPETIR A IMAGEM*/ 
+        }
+        .banner .container{
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .banner p{
+            width: 10px;
+            margin: 0;
+            padding: 0;
+            font-size: 36px;
+            margin-left: 350px;
+        }
+        .banner span{
+            font-weight: 800;
+        }
+        /* SOCIAL */
+        .social{
+            background-color: #E5E5E5;
+            padding: 50px 0;
+            
+        }
+        .social .container{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+        .social .titulo{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+        .social h2{
+            display: flex;
+            padding: 20px;
+            background-color: #FFF;
+            border-radius: 20px;
+            align-self: center;
+            justify-content: center;
+            text-align: center;
+            color: #E6005A;
+            margin: 0;
+        }
